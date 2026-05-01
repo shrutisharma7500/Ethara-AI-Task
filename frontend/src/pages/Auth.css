@@ -1,0 +1,114 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #130f1c 0%, #1e102e 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background: #1a1523;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid #3b2856;
+  transition: transform 0.3s ease;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+}
+
+.auth-card h2 {
+  margin: 0 0 10px 0;
+  color: #f3e8ff;
+  font-size: 28px;
+  text-align: center;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #a395b8;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.auth-error {
+  background: #ff7675;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d1c4e9;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  background: #0f0a1a;
+  border: 1px solid #3b2856;
+  color: #f3e8ff;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #9333ea;
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.2);
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #9333ea, #7e22ce);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
+}
+
+.auth-btn:hover {
+  background: linear-gradient(to right, #a855f7, #9333ea);
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.5);
+  transform: translateY(-2px);
+}
+
+.auth-redirect {
+  text-align: center;
+  margin-top: 20px;
+  color: #a395b8;
+  font-size: 14px;
+}
+
+.auth-redirect a {
+  color: #c084fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-redirect a:hover {
+  text-decoration: underline;
+}
